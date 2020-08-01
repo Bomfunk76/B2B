@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>B2B</title>
+    <link rel="stylesheet" href="/components/flickity/flickity.css">
+    <link rel="stylesheet" href="/components/flickity/fullscreen.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        <div class="header-content">
+          <!-- <object class="logo" type="image/svg+xml" data="/images/logo.svg"></object> -->
+          <a class="logo" href="#main-page"><img src="/images/logo.svg" alt="logo"></a>
+          <!--        <svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 110 163">-->
+          <!--            <use xlink:href="/images/logo.svg#logo"></use>-->
+          <!--        </svg>-->
+          <div class="header-nav">
+            <div class="hamburger">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+            <div class="mobile-overlay"></div>
+            <ul class="header-items">
+              <li><a class="header-item" href="#about">О компании</a></li>
+              <li><a class="header-item" href="#get">Бонусы</a></li>
+              <li><a class="header-item" href="#map">Контакты</a></li>
+              <li class="tel"><span><img src="/images/phone.svg" alt="phone">+38 (067) 553-43-55</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="telegram-call">
+            <button class="call-btn-telegram"><img src="/images/btn-telegram.svg" alt="telegram"></button>
+            <div class="telegram-call-content">
+                <button class="call-content-close">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+                <h2>Быстрый ответ в <b>Telegram</b></h2>
+                <button class="call-content-btn"><img class="bth-tel" src="/images/btn-telegram.svg" alt="tel">Telegram</button>
+            </div>
+        </div>
+        <section id="main-page" class="main-page">
+            <div class="container">
+                <div class="main-content">
+                    <h1>Зарабатывай</h1>
+                    <h2>от <b>130%</b> покупая</h2>
+                    <h3>и получай <b>кешбэк*</b></h3>
+                    <p class="animation-element slide-left">Получайте кешбэк 5% за регистрацию и начинайте зарабатывать от 130% на покупке золота и серебра прямо сейчас. Действуйте!</p>
+                    <button onclick="cashBackForm(this)" class="main-btn btn-effect animation-element slide-right"><span>Получить кешбэк</span></button>
+                </div>
+                <div class="img-box">
+                    <div class="box-top">
+                        <img src="/images/box-top.svg" alt="">
+                    </div>
+                    <h1 class="box-cashback">5%*</h1>
+                    <div class="box-bottom">
+                        <img src="/images/box-bottom.svg" alt="">
+                        <div class="box-money">
+                            <div class="box-dollar left1">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+                            <div class="box-dollar left2">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+                            <div class="box-dollar left3">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+                            <div class="box-dollar left4">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+                            <div class="box-dollar left5">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+                            <div class="box-dollar left6 ">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+                            <div class="box-dollar left7">
+                                <img src="/images/dollar.svg" alt="dollar">
+                            </div>
+
+                            <div class="box-cent left1">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left2">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left3">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left4">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left5">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left6">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left7">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left8">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                            <div class="box-cent left9">
+                                <img src="/images/cent.svg" alt="cent">
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- <div class="box-money">
+                        <div class="box-dollar left1">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+                        <div class="box-dollar left2">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+                        <div class="box-dollar left3">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+                        <div class="box-dollar left4">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+                        <div class="box-dollar left5">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+                        <div class="box-dollar left6 ">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+                        <div class="box-dollar left7">
+                            <img src="/images/dollar.svg" alt="dollar">
+                        </div>
+
+                        <div class="box-cent left1">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left2">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left3">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left4">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left5">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left6">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left7">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left8">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                        <div class="box-cent left9">
+                            <img src="/images/cent.svg" alt="cent">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="main-pool">
+                <img src="/images/pools/main-pool.svg" alt="">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="container">
+                        <h2 class="animation-element slide-right">Что такое <b>B2B?</b></h2> 
+                        <p class="animation-element slide-right">Бизнес проект B2B предлагает уникальную возможность
+                            заработка при покупке ювелирных изделий в сети ювелирных
+                            салонов компании , а также в интернет магазинах. B2B — быстро развивающаяся, прогрессивная, не подверженная никаким 
+                            экономическим катаклизмам компания.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-slider">
+                    <div class="about-slide">
+                        <img src="/images/about-slide1.jpg" alt="">
+                    </div>
+                    <div class="about-slide">
+                        <button class="video-img">
+                            <img src="/images/about-slide2.jpg" alt="video-slide">
+                            <img src="/images/video-play.svg" alt="play" class="video-play">
+                        </button>
+                    </div>
+                    <div class="about-slide">
+                        <img src="/images/video-pleload-img.jpg" alt="">
+                    </div>
+                    <div class="about-slide">
+                        <img src="/images/about-slide2.jpg" alt="">
+                    </div>
+                    <div class="about-slide">
+                        <img src="/images/video-pleload-img.jpg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="about-slider" data-flickity='{ "fullscreen": true }'>
+                    <div class="about-slider-item">
+                        <img src="/images/about-slide1.png" alt="" class="about-slide">
+                    </div>     
+                    <div id="video1" class="about-slider-item">
+                        <button class="video-img">
+                            <img src="/images/about-slide2.png" alt="video-slide" class="about-slide">
+                            <img src="/images/video-play.svg" alt="play" class="video-play">
+                        </button>
+                    </div>     
+                    <div class="about-slider-item">
+                        <img src="/images/about-slide1.png" alt="" class="about-slide">
+                    </div>     
+                    <div class="about-slider-item">
+                        <img src="/images/about-slide2.png" alt="" class="about-slide">
+                    </div>     
+                    <div class="about-slider-item">
+                        <img src="/images/about-slide1.png" alt="" class="about-slide">
+                    </div>
+                </div> -->
+                <!-- <div id="video1-content" class="video-content">
+                    <img src="/images/video-content-play.svg" alt="play" class="video-content-play">
+                    <video poster="/images/video-pleload-img.png" controls>
+                        <source src="myVideo.mp4" type="video/mp4">
+                        <source src="myVideo.webm" type="video/webm">
+                        <p>Your browser doesn't support HTML5 video. Here is
+                        a <a href="myVideo.mp4">link to the video</a> instead.</p>
+                    </video>
+                    <button class="video-close">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </button>
+                </div>  -->
+            </div>
+            <div class="about-img">
+                <img class="box-bottom" src="/images/about-man.svg" alt="">
+            </div>
+            <div class="about-pool">
+                <img src="/images/pools/about-pool.svg" alt="">
+            </div>
+            
+            <div class="money">
+                <img  class="parallax about-dollar" src="/images/dollar.svg" alt="dollar">
+                <img  class="parallax about-cent-top" src="/images/cent.svg" alt="cent">
+                <img  class="parallax about-cent-bottom" src="/images/cent.svg" alt="cent">
+                <img  class="parallax about-cent-right" src="/images/cent.svg" alt="cent">
+            </div>
+        </section>
+        <section id="offers" class="offers">
+            <div class="container">
+                <div class="offers-img">
+                    <img class="box-bottom" src="/images/offers-man.svg" alt="">
+                </div>
+                <div class="offers-content">
+                    <h2>Что мы <b>предлагаем?</b></h2>
+                    <div class="offers-cards">
+                        <div class="offers-card animation-element fade-in">
+                            <img src="/images/card-item1.svg" alt="" class="card-icon">
+                            <h3>Надежный вклад</h3>
+                            <p>Ювелирное изделие <br> остается у вас</p>
+                        </div>
+                        <div class="offers-card animation-element fade-in">
+                            <img src="/images/card-item2.svg" alt="" class="card-icon">
+                            <h3>Реальный доход</h3>
+                            <p>Возвращаем от 130% <br> стоимости</p>
+                        </div>
+                        <div class="offers-card animation-element fade-in">
+                            <img src="/images/card-item3.svg" alt="" class="card-icon">
+                            <h3>Надежный вклад</h3>
+                            <p>Выплаты каждую <br> пятницу</p>
+                        </div>
+                        <div class="offers-card animation-element fade-in">
+                            <img src="/images/card-item4.svg" alt="" class="card-icon">
+                            <h3>Пассивный доход</h3>
+                            <p>Развивайте свою сеть <br> и зарабатывайте больше</p>
+                        </div>
+                        <div class="offers-card animation-element fade-in">
+                            <img src="/images/card-item5.svg" alt="" class="card-icon">
+                            <h3>Качественные изделия</h3>
+                            <p>Ювелирные изделия сделаны из золота 585˚ и серебра 925˚</p>
+                        </div>
+                        <div class="offers-card animation-element fade-in">
+                            <img src="/images/card-item6.svg" alt="" class="card-icon">
+                            <h3>Постоянные бонусы</h3>
+                            <p>Повышайте свой ранг <br> и получайте подарк</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offers-pool">
+                <img src="/images/pools/offers-pool.svg" alt="">
+            </div>
+            <div class="money">
+                <img class="parallax offers-dollar-bottom" src="/images/dollar.svg" alt="dollar">
+                <img class="parallax offers-dollar-top" src="/images/dollar.svg" alt="cent">
+                <img class="parallax offers-dollar-right" src="/images/dollar.svg" alt="cent">
+                <img class="parallax offers-cent" src="/images/cent.svg" alt="cent">
+            </div>
+        </section>
+        <section id="get" class="get">
+            <div class="container">
+                <div class="get-text">
+                    <img class="get-img" src="/images/get-man.svg" alt="">
+                    <h2 class="animation-element slide-left">Что вы <b>получите?</b></h2>
+                    <p class="animation-element slide-left">Вы получите стабильный пассивный доход каждую неделю, 
+                        а также постоянные бонусы при повешения своего ранга. 
+                        Начисление бонусов происходит равными частями 
+                        52 раза на протяжении года каждую пятницу 
+                        получать пассивный доход или строить карьеру, 
+                        развивая собственную сеть - решать только вам!</p>
+                </div>
+                <div class="get-item travel animation-element fade-in">
+                    <img class="get-item-img" src="/images/get-item-img1.svg" alt="">
+                    <div class="get-item-text">
+                        <h3>Путешествие на двоих</h3>
+                        <p>Получая ранг <b>старший мастер</b> вы получаете бонус от покупок 19% 
+                        <br>и путешествие на двоих</p>
+                    </div>
+                    <img class="get-line" src="/images/get-line1.svg" alt="">
+                </div>
+                <div class="get-item cruise animation-element fade-in">
+                    <img class="get-item-img" src="/images/get-item-img2.svg" alt="">
+                    <div class="get-item-text">
+                        <h3>Круиз на двоих</h3>
+                        <p>Получая ранг <b>ведущий мастер</b> вы получаете бонус от покупок 19.5%
+                        <br>и круиз на двоих</p>
+                    </div>
+                    <img class="get-line" src="/images/get-line2.svg" alt="">    
+                </div>
+                <div class="get-item office animation-element fade-in">
+                    <img class="get-item-img" src="/images/get-item-img3.svg" alt="">
+                    <div class="get-item-text">
+                        <h3>Свой офис + 20000$</h3>
+                        <p>Получая ранг <b>золотой мастер</b> вы получаете бонус от покупок 20% 
+                        <br>и свой офис + 20000$</p>
+                    </div>
+                    <img class="get-line" src="/images/get-line3.svg" alt="">                    
+                </div>
+                <div class="get-item auto animation-element fade-in">
+                    <img class="get-item-img" src="/images/get-item-img4.svg" alt="">
+                    <div class="get-item-text">
+                        <h3>Автомобиль</h3>
+                        <p>Получая ранг <b>директор</b> вы получаете бонус от покупок 20.5%
+                        <br>и автомобиль</p>
+                    </div>
+                    <img class="get-line" src="/images/get-line4.svg" alt="">                    
+                </div>
+                <div class="get-item flat animation-element fade-in">
+                    <img class="get-item-img" src="/images/get-item-img5.svg" alt="">
+                    <div class="get-item-text">
+                        <h3>Квартира</h3>
+                        <p>Получая ранг <b>золотой директор</b> вы получаете бонус от покупок 21%
+                        <br>и квартира</p>
+                    </div>                   
+                </div>
+            </div>
+            <div class="get-pool-right">
+                <img src="/images/pools/get-pool-right.svg" alt="">
+            </div>
+            <div class="get-pool-left">
+                <img src="/images/pools/get-pool-left.svg" alt="">
+            </div>
+        </section>
+        <section id="cashback" class="cashback">
+            <div class="container">
+                <div class="cashback-text">
+                    <h2>
+                        <b>Перестаньте искать</b> другие способы зароботка и 
+                        <b>начни свой бизнес уже сейчас!</b>
+                    </h2>
+                    <p class="cashback-text animation-element slide-left">Мы открываем колоссальные возможности для вашего заработка! 
+                        Каждый активный партнер проекта В2В может получить 
+                        вознаграждение в виде бонусов и подарков. Дайте вашим деньгам
+                        поработать за вас! Регистрируйтесь! Зарабатывайте реальные деньги
+                        уже сейчас! Стань участником программы В2В прямо сейчас!</p>
+                    <button onclick="cashBackForm(this)" class="cashback-btn btn-effect animation-element slide-right"><span>Получить кешбэк</span></button>
+                    <div class="cashback-form-overlay">    
+                        <div class="cashback-form" oninput="ValidForm()">
+                            <button onclick="cashBackForm(this)" class="cashback-form-close">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </button>
+                            <form class="form-content">
+                                <h1 class="form-title">Получить кешбэк</h1>
+                                <div class="form-item">
+                                    <!-- <?= MaskedInput::widget(['name'=>'tel','options'=>['id'=>'tel','class'=>'form-item-data','onchange'=>'ValidPhone()','placeholder'=>'Номер телефона'],'mask'=>'+380 99 999 99 99']) ?> -->
+                                    <input class="form-item-data" oninput="ValidPhone()" type="text" id="tel" name="phone" placeholder="Номер телефона">
+                                    <span class="check-tel">
+                                        <img class="yes" src="/images/cashback-popup-yes.svg" alt="check">
+                                        <img class="no" src="/images/cashback-popup-no.svg" alt="check">
+                                    </span>
+                                </div>
+                                <div class="form-item">
+                                    <input class="form-item-data" oninput="ValidFirstName()" type="text" id="firstname" name="firstname" placeholder="Фамилия">
+                                    <span class="check-firstname">
+                                        <img class="yes" src="/images/cashback-popup-yes.svg" alt="check">
+                                        <img class="no" src="/images/cashback-popup-no.svg" alt="check">
+                                    </span>
+                                </div>
+                                <div class="form-item">
+                                    <input class="form-item-data" oninput="ValidLastName()" id="lastname" type="text" name="lastname" placeholder="Имя">
+                                    <span class="check-lastname">
+                                        <img class="yes" src="/images/cashback-popup-yes.svg" alt="check">
+                                        <img class="no" src="/images/cashback-popup-no.svg" alt="check">
+                                    </span>
+                                </div>
+                                <div class="form-item">
+                                    <input class="form-item-data" oninput="ValidMiddleName()" id="middlename" type="text" name="middlename" placeholder="Отчество">
+                                    <span class="check-middlename">
+                                        <img class="yes" src="/images/cashback-popup-yes.svg" alt="check">
+                                        <img class="no" src="/images/cashback-popup-no.svg" alt="check">
+                                    </span>
+                                </div>
+                            </form>
+                            <button class="cashback-form-btn btn-effect"><span>Подтвердить</span></button>
+                            <div class="form-finish">
+                                <h1>
+                                    <b>OТЛИЧНО!</b> <br>
+                                    Cкоро мы свяжемся с вами
+                                </h1>
+                                <div class="form-finish-man">
+                                    <img src="/images/cashback-popup-man.svg" alt="man">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cashback-img">
+                    <img class="cashback-money" src="/images/cashback-money.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="map" class="map">
+            <div class="container">
+                <h2>Нас все больше, давайте работать вместе!</h2>
+                <div class="map-btns">
+                    <button class="map-btn-telegram btn-effect"><img class="btn-telegram" src="/images/btn-telegram.svg" alt="telegram"><span>Telegram</span></button>
+                    <button class="map-btn-viber btn-effect"><img class="btn-viber" src="/images/btn-viber.svg" alt="viber"><span>Viber</span></button>
+                    <button class="map-btn-tel btn-effect"><img class="bth-tel" src="/images/btn-tel.svg" alt="tel"><span>+38 (067) 553-43-55</span></button>
+                </div>
+                <div class="map-panel">
+                    <img class="map-img" src="/images/map-ukraine.jpg" alt="map">
+                    <div class="departments-on-map">
+                        <div class="department lvov animation-element scale-out">
+                            <img src="/images/map-point-red.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>Львов</h2>
+                                <p>УЛ. ДЖЕРЕЛЬНАЯ 28Б График работы 10:00 - 19:00
+                                  Без перерыва и без выходных</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="soon">с 27.07.2019</span>
+                            </div>
+                        </div>
+                        <div class="department kiev animation-element scale-in">
+                            <img src="/images/map-point-green.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>Киев</h2>
+                                <p>Проспект Петра Григоренка 22/20, 2 этаж 
+                                    График работы 10:00 - 19:00 Без перерыва и без выходных</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="works">Работает</span>
+                            </div>
+                        </div>
+                        <div class="department city1 animation-element scale-in">
+                            <img src="/images/map-point-green.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>City1</h2>
+                                <p>...</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="works">Работает</span>
+                            </div>
+                        </div>
+                        <div class="department city2 animation-element scale-in">
+                            <img src="/images/map-point-green.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>City2</h2>
+                                <p>...</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="works">Работает</span>
+                            </div>
+                        </div>
+                        <div class="department city3 animation-element scale-in">
+                            <img src="/images/map-point-green.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>City3</h2>
+                                <p>...</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="works">Работает</span>
+                            </div>
+                        </div>
+                        <div class="department city4 animation-element scale-out">
+                            <img src="/images/map-point-red.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>City4</h2>
+                                <p>...</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="soon">с ...</span>
+                            </div>
+                        </div>
+                        <div class="department city5 animation-element scale-out">
+                            <img src="/images/map-point-red.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>City5</h2>
+                                <p>...</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="soon">с ...</span>
+                            </div>
+                        </div>
+                        <div class="department city6 animation-element scale-out">
+                            <img src="/images/map-point-red.svg" alt="">
+                            <div class="department-tooltip">
+                                <h2>City6</h2>
+                                <p>...</p>
+                                <h3>+38 (097) 069-39-16</h3>
+                                <span class="soon">с ...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="department-details">
+                        <span><img src="/images/map-point-red.svg" alt="">- Скоро открытие</span>
+                        <span><img src="/images/map-point-green.svg" alt="">- Открыто</span> 
+                    </div>
+                </div>
+                <div class="mobile-departments">
+                    <label class="mobile-department kiev">
+                        <input class="department-input" type="checkbox" />
+                        <div class="mobile-department-header">
+                            <h2>Киев</h2>
+                            <button class="mobile-department-btn">
+                                <span class="line"></span>
+                                <span class="line"></span> 
+                            </button>
+                        </div>    
+                        <div class="mobile-department-details">
+                            <p>Проспект Петра Григоренка 22/20, 2 этаж</p>
+                            <div class="row">
+                                <p>График работы 10:00 - 19:00 Без перерыва и без выходных</p>
+                                <span class="works">Работает</span>
+                            </div>
+                            <h3>+38 (097) 069-39-16</h3>   
+                        </div>
+                    </label>
+                    <label class="mobile-department kam-pod">
+                        <input class="department-input" type="checkbox" />
+                        <div class="mobile-department-header">
+                            <h2>Каменец-Подольский</h2>
+                            <button class="mobile-department-btn">
+                                <span class="line"></span>
+                                <span class="line"></span> 
+                            </button>
+                        </div>
+                        <div class="mobile-department-details">  
+                            <p>Проспект Петра Григоренка 22/20, 2 этаж</p>
+                            <div class="row">
+                                <p>Открытие магазина 25.08.2019</p>
+                                <span class="soon">Не работает</span>
+                            </div>
+                            <h3>+38 (097) 069-39-16</h3>  
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="map-pool">
+                <img src="/images/pools/map-pool.svg" alt="">
+            </div>
+        </section>
+        <section id="callback" class="callback">
+            <div class="container">
+                <div class="callback-content">
+                    <h2>Остались вопросы?</h2>
+                    <h3>Наш консультант святиться с вами</h3>
+                    <form class="callback-content animation-element slide-left" action="/action_page.php">
+                        <input type="text" id="name" name="name" placeholder="Имя">
+                        <input type="text" id="email" name="email" placeholder="E-mail">
+                        <input type="text" id="number" name="number" placeholder="Номер телефона">
+                    </form>
+                    <button class="callback-btn btn-effect animation-element slide-right"><span>Позвоните мне</span></button>
+                    <div class="callback-timer">
+                        <h1>Звонок примерно через</h1>
+                        <div class="callback-time">
+                            <span>00 :</span>
+                            <span class="seconds">59</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img class="callback-img" src="/images/callback-man.svg" alt="">  -->
+            </div>
+            <div class="callback-pool">
+                <img src="/images/pools/callback-pool.svg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-details">
+            <img src="/images/footer-b2b-icon.svg" alt="b2b icon">
+            <p>Продажа высококачественных ювелирных изделий из золота и серебра в Украине.</p>
+          </div>
+          <div class="footer-contacts">
+            <h3>Наши контакты</h3>
+            <span class="tel"><img src="/images/gray-phone.svg" alt="phone">+38 (067) 553-43-55</span>
+            <div class="footer-icons">
+              <button class="btn-telegram"><img src="/images/gray-telegram.svg" alt="telegram"></button>
+              <button class="btn-viber"><img src="/images/gray-viber.svg" alt="viber"></button>
+            </div>
+          </div>
+          <div class="footer-nav">
+            <h3>Меню</h3>
+            <ul class="footer-items">
+              <li><a class="footer-item" href="">О компании</a></li>
+              <li><a class="footer-item" href="">Видео</a></li>
+              <li><a class="footer-item" href="">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <p>Все права защищены © 2019</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/components/jquery.js"></script>
+  <script src="/components/flickity/flickity.pkgd.min.js"></script>
+  <script src="/components/flickity/fullscreen.js"></script>
+  <script src="/js/main.js"></script>
+</html>
