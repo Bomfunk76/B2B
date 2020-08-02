@@ -1,3 +1,126 @@
+// Portfolio bar
+.portfolio-bar{
+  bottom: 8px;
+  right: 8px;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #efefef;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  z-index: 9999;
+  animation: slideOut 0.5s;
+  font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+.portfolio-link{
+  font-size: 14px;
+  color: #8d8d8d;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  transition: 0.3s;
+  &:hover{
+    
+  }
+}
+.portfolio-socials{
+  display: flex;
+  align-items: center;
+}
+.social-link{
+  position: relative;
+  background: linear-gradient(0deg, #bdbdbd, #fff);
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out;
+  &:not(:last-child){
+    margin-right: 12px;
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    border-radius: 50%;
+    background: linear-gradient(0deg, #fff, #bdbdbd);
+    top: 4px;
+    transition: all 0.3s ease-out;
+    z-index: 0;
+  }
+  &:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  svg{
+    width: 24px;
+    height: auto;
+    z-index: 1;
+  }
+  &.gmail{
+    rect,
+    polygon{
+      fill: #fff;
+      transition: 0.3s;
+    }
+    path{
+      fill: #8d8d8d;
+      transition: 0.3s;
+    }
+    &:hover{
+      rect{
+        fill: #ECEFF1;
+      }
+      polygon{
+        fill: #CFD8DC;
+      }
+      path{
+        fill: #F44336;
+      }
+    }
+  }
+  &.instagram{
+    stop{
+      stop-color: #8d8d8d;
+      transition: 0.3s;
+    }
+    &:hover{
+      stop{
+        &:nth-child(1){
+          stop-color: #fd5;
+        }
+        &:nth-child(2){
+          stop-color: #ff543e;
+        }
+        &:nth-child(3){
+          stop-color: #c837ab;
+        }
+      }
+    }
+  }
+  &.telegram{
+    circle{
+      fill: #8d8d8d;
+      transition: 0.3s;
+    }
+    &:hover{
+      circle{
+        fill: #039be5;
+      }
+    }
+  }
+}
+// /Portfolio bar
+
 /*-------------------------- 
       Fonts
 ----------------------------*/
