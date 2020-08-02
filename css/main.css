@@ -23,6 +23,9 @@
   margin-bottom: 12px;
   transition: 0.3s;
 }
+.portfolio-link:hover {
+  color: #bdbdbd;
+}
 .portfolio-socials {
   display: flex;
   align-items: center;
